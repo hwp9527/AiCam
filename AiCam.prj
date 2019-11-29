@@ -1,0 +1,154 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration file="E:\Matlab_Workspace\AiCam\AiCam.prj" location="E:\Matlab_Workspace\AiCam" name="AiCam" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>AiCam</param.appname>
+    <param.icon>${PROJECT_ROOT}\AiCam_resources\icon.ico</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\AiCam_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\AiCam_resources\icon_32.png</file>
+      <file>${PROJECT_ROOT}\AiCam_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\AiCam_resources\icon_16.png</file>
+    </param.icons>
+    <param.version>1.0</param.version>
+    <param.authnamewatermark>hwp</param.authnamewatermark>
+    <param.email>hwp195@163.com</param.email>
+    <param.company>gnu</param.company>
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.guid />
+    <param.installpath.string>\gnu\AiCam\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\AiCam\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\AiCam\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\AiCam\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\AiCam</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages>
+      <item>&lt;package displayname="USB Webcams" enabled="true" name="USB Webcams" product="MATLAB"/&gt;</item>
+    </param.support.packages>
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text />
+    <unset>
+      <param.version />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+      <param.help.text />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\AiCam.mlapp</file>
+    </fileset.main>
+    <fileset.resources />
+    <fileset.package />
+    <fileset.depfun>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\webcam\supportpackages\+matlab\+webcam\+internal\PreviewController.p</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\webcam\supportpackages\+matlab\+webcam\+internal\Utility.p</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\webcam\supportpackages\+matlab\+webcam\+internal\WebcamController.p</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\webcam\supportpackages\@webcam\webcam.m</file>
+      <file>${PROJECT_ROOT}\resource\RecordStart.jpg</file>
+      <file>${PROJECT_ROOT}\resource\RecordStop.jpg</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\AiCam\for_testing" name="AiCam.exe" optional="false">E:\Matlab_Workspace\AiCam\AiCam\for_testing\AiCam.exe</file>
+      <file location="${PROJECT_ROOT}\AiCam\for_testing" name="splash.png" optional="false">E:\Matlab_Workspace\AiCam\AiCam\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\AiCam\for_testing" name="readme.txt" optional="true">E:\Matlab_Workspace\AiCam\AiCam\for_testing\readme.txt</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2017b</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabcoder" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="polyspacebugfinder" />
+      </toolboxes>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <polyspacebugfinder>
+          <enabled>true</enabled>
+        </polyspacebugfinder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
